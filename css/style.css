@@ -1,0 +1,164 @@
+
+.header {
+    background-color: #6500ff;  
+    color: #fff;
+    background-image: url(../img/header/bg.png);
+    background-repeat: no-repeat;
+    font-size: 1.125rem;
+    padding-bottom: 9rem;
+    padding-top: 3,25rem;
+}
+
+.nav-item a{  
+    color:#fff;  
+}
+
+.sign-in-btn, .btn {
+    background-color: #ff5f60;
+    border-radius: 1.5em;
+    border: none;
+    font-size: 1.125rem;
+    color: #fff;
+    padding: 0.5em 2em;
+    cursor: pointer;
+}
+
+
+.header-content {
+    margin-top: 9rem;
+}
+
+.header-img {
+    width: 100%;
+}
+
+
+.header-right {
+    font-size: 0.813rem;
+    position: relative;   
+}
+
+.header-main__title {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 70px;
+    font-weight: 700;
+}
+.header-main__text {
+    font-size: 1.063rem;    
+}
+
+/******************************************SQUARES ************************************************* */
+.square {
+    padding-top: 4.2rem ;
+    padding-bottom: 3.8rem;
+}
+.square-text {
+    display: block;
+    font-weight: bold;
+}
+.square-icon {
+    display: block;
+    margin-left: 1.7rem;
+}
+
+.top-square {
+    position: absolute;
+    top: -2em;
+    left: 19.5em;
+}
+
+.top-square-text{
+    transform: rotate(-12deg);
+    display: block;
+    color: #000;
+    font-weight: bold;
+}
+
+.mid-left-square {
+    position: absolute;
+    top: 7.3em;
+    left: 18.2em;
+}
+
+.mid-right-square {
+    position: absolute;
+    top: 6.5em;
+    left: 23em;
+    margin-left: 5rem;
+}
+
+.mid-right-square-text {
+    transform: rotate(15deg);
+    display:block;
+}
+.mid-right-square-icon {
+    margin-left: 2rem;
+}
+
+.bottom-left-square {
+    position: absolute;
+    top: 16.4em;
+    left: 10.5em;
+}
+.bottom-left-square-icon {
+    margin-left: 2.2rem;
+}
+
+.bottom-mid-square{
+    position: absolute;
+    top: 16.7em;
+    left: 20.1em;
+}
+
+.bottom-right-square{
+    position: absolute;
+    top: 16.5em;
+    left: 28.5em;
+}
+/*****************************SQUARES END*****************************/
+/***************HEADER END**********************/
+
+/*MAIN*/
+.admission-form {
+    margin-top: -5rem;
+    color: #fff;
+    text-align: center;
+    background-color: #ff5f60;
+    border-radius: 0.5em;
+    padding: 2em 1em 2em 1em;
+    box-shadow: 0 -10px #183251;
+}
+.form-title {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.form-text {
+    opacity: 0.5;
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 20px;
+}
+.form-underline { 
+    font-weight: bold;
+}
+
+.form-send-btn {
+    border-radius: 0 1.5em 1.5em 0;
+    margin-left: -5px;
+    padding: 0.5em;
+    padding-left: 0.7em;
+    padding-right: 0.8em;
+    border: none;
+    background-color: #1f3148;
+
+}
+.main-form input {
+    border-radius: 1.5em 0 0 1.5em;
+    border: none;
+    padding: .5em;
+    margin-right: 0;
+}
